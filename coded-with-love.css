@@ -1,0 +1,33 @@
+@-webkit-keyframes love {
+    to { -webkit-transform: scale(1.1); }
+}
+@-moz-keyframes love {
+    to { -moz-transform: scale(1.1); }
+}
+@keyframes love {
+    to { transform: scale(1.1); }
+}
+.with-love {
+    color: #333;
+    display: inline-block;
+}
+.with-love .heart {
+    font-size: 1.4em;
+    color: #ff79c6;
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    transform: scale(.9);
+    -webkit-animation: love .5s infinite linear alternate-reverse;
+    -moz-animation: love .5s infinite linear alternate-reverse;
+    animation: love .5s infinite linear alternate-reverse;
+}
+.with-love .coded {
+    font-size: 1.1em;
+    font-style: italic;
+    font-family: "times";
+    color: #ff79c6;
+}
+a {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
