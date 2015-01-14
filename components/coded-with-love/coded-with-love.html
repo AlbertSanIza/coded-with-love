@@ -1,0 +1,64 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+A web component showing what you coded with love
+
+##### Default example:
+
+    <coded-with-love></coded-with-love>
+
+##### Mod example:
+
+    <coded-with-love name="Google" url="http://google.com" color="#0099CC"></made-with-love>
+
+@element coded-with-love
+@blurb Element that displays the coded love.
+@status alpha
+@homepage http://github.com/AlbertSanIza/coded-with-love
+-->
+<polymer-element name="coded-with-love" attributes="name url color">
+
+  <template>
+
+    <link rel="stylesheet" href="coded-with-love.css" />
+
+    <div class="with-love" style="color: {{ color }};">
+      <span class="coded"> < > </span> with <span class="heart">♥</span> by <a href="{{ url }}" style="color: {{ color }};" class="name">{{ name }}</a>
+    </div>
+
+  </template>
+
+  <script>
+
+    Polymer({
+            /**
+            * The `name` attribute allows you to change the displayed name.
+            *
+            * @attribute name
+            * @type string
+            * @default "Albert Sanchez"
+            */
+            name: "Albert Sanchez",
+
+            /**
+            * The `url` attribute allows you to change url destination.
+            *
+            * @attribute url
+            * @type string
+            * @default "https://github.com/randsonjs"
+            */
+            url: "https://github.com/AlbertSanIza",
+
+            /**
+            * The `color` attribute allows you to change the text color.
+            *
+            * @attribute color
+            * @type string
+            * @default "#333"
+            */
+            color: "#333"
+    });
+
+  </script>
+
+</polymer-element>

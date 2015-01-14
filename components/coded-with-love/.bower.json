@@ -1,0 +1,26 @@
+{
+  "name": "coded-with-love",
+  "keywords": [
+    "seed",
+    "polymer",
+    "web-components"
+  ],
+  "main": "coded-with-love.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.1"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^2.0.0"
+  },
+  "homepage": "https://github.com/AlbertSanIza/coded-with-love",
+  "_release": "a7a11513e2",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a7a11513e2335f0eadf7961487b37ef001ec0a43"
+  },
+  "_source": "git://github.com/AlbertSanIza/coded-with-love.git",
+  "_target": "master",
+  "_originalSource": "AlbertSanIza/coded-with-love",
+  "_direct": true
+}
